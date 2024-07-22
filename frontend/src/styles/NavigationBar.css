@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+}
+.active{
+    color: #00a0bd
+}
+.NavigationBar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 4.69vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.NavigationBar .logo{
+    position: absolute;
+    display: flex;  
+    background: url("../../public/img/navigationBar/logo.png") center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0.7vw ;
+    width: 15.21vw;
+    height: 9.53vw;
+}
+
+.NavigationBar .nav{
+    display: flex;
+    height: 100%;
+}
+ 
+.NavigationBar .nav a , .NavigationBar .nav span{
+    text-transform: capitalize;
+    display: block;
+    line-height: 4.69vw ;
+    color: #3d4b57;
+    font-size: 1.2vw ;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 1.27vw;
+    margin-left: 0.5vw;
+}
+.NavigationBar .nav span.active{
+    background: url(../../public/img/navigationBar/nav_left.png) left center no-repeat
+                , url(../../public/img/navigationBar/nav_right.png) right center no-repeat;
+}
+
+.NavigationBar .nav span:hover{
+    color:#00a0bd;
+}
+
+.NavigationBar .nav a:hover{
+    text-decoration: underline;
+}
+
+.NavigationBar .langue{
+    height: 100%;
+    color: #aabac8;
+    padding-right: 1vw ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.NavigationBar .langue i{
+    margin-right: 0.8vw ;
+    margin-left: 0.8vw;
+}
+
+.NavigationBar .langue ul {
+    position: absolute;
+    top: 4.896vw ;
+    right: 0.521vw ;
+    width: 5.73vw ;
+    padding: 0.521vw 0;
+    border-radius: 0.313vw ;
+}
+.NavigationBar .langue ul.hide{
+    display: none;
+}
+
+.NavigationBar .langue ul li{
+    height: 2.29vw ;
+    line-height: 2.29vw ;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.NavigationBar .langue ul li:hover{
+    color: #00a0bd;
+}
+

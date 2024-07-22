@@ -1,0 +1,90 @@
+a{
+    text-decoration: none;
+}
+
+.Footer {
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 20vw;
+    position: relative;
+    align-items: center;
+    /* background: rgb(152, 105, 105); */
+    margin-top: 16px;
+    font-size: 0.9vw;
+}
+
+.limit_18 {
+    position: absolute;
+    background-image: url('../public/img/footer/limit_18.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 2.5vw;
+    height: 2.5vw;
+    bottom: 50%;
+    right: 15vw;
+}
+
+.logo_wrap {
+    display: flex;
+}
+
+.logo_sugarfun {
+    width: 12vw;
+    height: 4vw;
+    background: url(../public/img/footer/sugarfun.png) center no-repeat;
+    background-size: 100%;
+    margin-right: 4.5vw;
+}
+
+.logo_hhgames {
+    width: 12vw;
+    height: 4vw;
+    background: url(../public/img/footer/hhgame.png) center no-repeat;
+    background-size: 100%;
+}
+
+.Footer p{
+    line-height: 1.8vw;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #000;
+}
+
+.Footer .link{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .link a{
+    position: relative;
+    display: block;
+    height: 2vw;
+    line-height: 2vw;
+    color: inherit;
+    padding: 0 30px 0 29px;
+    cursor: pointer;
+}
+
+.Footer .link a:hover{
+    text-decoration: underline;
+}
+
+.Footer .link a:not(:last-child):after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    background-color: #000;
+}
+
+.Footer p strong {
+    color: #ff3434;
+}
+
+
